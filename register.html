@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <!-- Use Get, not Post -->
+    <div>
+        <form method="get">
+            <span>First Name:</span><input type="text" name="firstname"><br>
+            Last Name: <input type="text" name="lastname"><br>
+            Email: <input type="email" name="email" required><br>
+            Password: <input type="password" name="password" min="5"><br>
+            Birthday: <input type="date" name="birthday"><br>
+            Gender: <br>
+            <input type="radio" name="Gender" value="Male">Male<br>
+            <input type="radio" name="Gender" value="Female">Female<br>
+            Pets: <br><input type="checkbox" name="cat">Cat<br>
+            <input type="checkbox" name="dogs">Dog<br>
+            Cars: <br>
+            <select>
+                <option value="Volvo" name="volvo">Volvo</option>
+                <option value="Audi" name="audi">Audi</option>
+            </select><br>
+            <input type="submit" value="Register"><br>
+            <input type="reset">
+
+        </form>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>heading1</th>
+                <th>heading2</th>
+                <th>heading3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>content1</td>
+                <td>content2</td>
+                <td>content3</td>
+            </tr>
+            <tr>
+                <td>content4</td>
+                <td>content5</td>
+                <td>content6</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>footer-content1</td>
+                <td>footer-content2</td>
+                <td>footer-content3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
