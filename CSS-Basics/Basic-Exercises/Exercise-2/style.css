@@ -1,1 +1,19 @@
- 
+.first {
+    background-color: rgb(255, 168, 181);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#second {
+    font-size: 36px;
+    color: blue;
+}
+
+.third {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: rgb(144, 238, 144);
+    font-size: 24px;
+    font-weight: bold;
+}
