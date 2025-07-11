@@ -1,0 +1,18 @@
+#wrap {
+    background-color: rgb(22, 180, 232);
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 20px;
+    font-size: large;
+}
+
+li::first-letter {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+}
