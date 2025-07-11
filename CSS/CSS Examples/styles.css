@@ -1,0 +1,52 @@
+.elements {
+    background-color: pink;
+    border: 2px solid black;
+    display: inline;
+    width: 100px;
+    /* ❌ won't have any effect */
+    height: 100px;
+    /* ❌ won't have any effect */
+}
+
+.elements1 {
+    background-color: pink;
+    border: 2px solid black;
+    display: inline-block;
+    width: 100px;
+    /* ✅  yes, it will work */
+    height: 100px;
+    /* ✅  yes, it will work */
+}
+
+.menu a {
+    background-color: red;
+    color: white;
+    display: block;
+    margin: 2px
+}
+
+.menu1 li {
+    display: inline;
+}
+
+#table {
+    display: table;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.gone-baby-gone {
+    display: none;
+}
+
+.hollow-man {
+    visibility: hidden;
+}
