@@ -1,0 +1,26 @@
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.box {
+    height: 60px;
+    border: 2px solid black;
+}
+
+.red {
+    background-color: #e57373;
+    flex: 0 0 60px;
+}
+
+.blue {
+    background-color: #64b5f6;
+    flex: 1;
+}
+
+.yellow {
+    background-color: #ffe082;
+    width: 100%;
+    height: 60px;
+}
