@@ -16,3 +16,7 @@ li {
     text-align: center;
     list-style: none;
 }
+
+#content+ul {
+    text-align: center;
+}
