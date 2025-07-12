@@ -1,0 +1,53 @@
+.container {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.header {
+    background-color: #998fc7;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border: 2px solid black;
+}
+
+.columns {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    height: 200px;
+}
+
+.red {
+    background-color: #e57373;
+    border: 2px solid black;
+}
+
+.green {
+    background-color: #a5d6a7;
+    border: 2px solid black;
+}
+
+.orange {
+    background-color: #ffb74d;
+    border: 2px solid black;
+}
+
+img {
+
+    height: 200px;
+    width: 100%;
+}
+
+.container_images {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.container_images>div {
+    flex: 1;
+}
