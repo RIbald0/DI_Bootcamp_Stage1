@@ -1,0 +1,24 @@
+#Exercises Functions - Intermediate
+#Exercise 1 : Return the Largest Number
+def largest_number(a, b, c):
+    return max(a, b, c)
+largest = largest_number(10, 20, 30)
+print(largest)
+
+#Exercise 2 : Check for Letter in Word
+#Write a function check_letter that takes a word and a letter as parameters and checks if the letter is in the word. It should return True if the letter is found and False if not.
+def check_letter(word, letter):
+    if letter in word:
+        return True
+    else:
+        return False
+print(check_letter("hello", "e"))
+print(check_letter("hello", "i"))
+
+#Exercise 3 : Count to a Number
+#Write a function count_to_number that takes a number as a parameter and prints all numbers from 1 to that number.
+
+def count_to_number(number):
+    for i in range(1, number + 1):
+        print(i)
+count_to_number(5)
